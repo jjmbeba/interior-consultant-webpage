@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
+@import 'functions';
+
+*{
+    font-family: 'Montserrat',sans-serif;
+}
+
+.logo{
+    font-size: rem(14);
+    font-weight: 200;
+    font-family: 'Crimson Pro';
+}
+
+.menu{
+    font-size: rem(18);
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+
+    ul{
+        li:hover{
+            font-weight: 700;
+        }
+    }
+}
+
+.text{
+    &__title{
+        font-family:'Lora';
+        font-weight: 500;
+        font-size: rem(36);
+    }
+    &__detail{
+        font-size: rem(14);
+        font-weight: 400;
+    }
+    &__link{
+        font-weight: 700;
+        font-size: rem(14);
+    }
+}
+
+.card{
+    &__profile{
+        font-family: 'Montserrat';
+        &__name{
+            font-weight: 500;
+            font-size: rem(12);
+        }
+        &__role{
+            font-weight: 500;
+            font-size: rem(10);
+        }
+    }
+    &__text{
+        font-weight: 700;
+        font-family: 'Lora';
+        font-size: rem(18);
+    }
+}
+
+@media  screen and (min-width:768px) {
+    .text{
+        &__title{
+            font-size: rem(48);
+        }
+        &__detail{
+            font-size: rem(24);
+        }
+        &__link{
+            font-size: rem(18);
+        }
+    }
+    .card{
+        &__profile{
+            &__name{
+                font-size: rem(14);
+            }
+            &__role{
+                font-size: rem(12);
+            }
+        }
+        &__text{
+            font-size: rem(24);
+        }
+    }
+}

@@ -1,0 +1,19 @@
+$bg:#181719;
+$gRole:#828282;
+
+*{
+    background-color: $bg;
+    color: white;
+}
+
+.menu{
+    background-color: $bg;
+}
+
+.card{
+    &__profile{
+        &__role{
+            color: $gRole;
+        }
+    }
+}
