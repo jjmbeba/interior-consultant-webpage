@@ -116,13 +116,14 @@ body{
     margin-top: rem(37);
     height: rem(264.32);
     max-width: 100%;
+    position: relative;
 }
 
 .card{
     width: rem(300);
     position: absolute;
-    left: 52px;
-    bottom: 138px;
+    left: rem(37);
+    bottom: rem(-99);
     height: rem(138);
     padding-left: rem(19);
     padding-top: rem(13.17);

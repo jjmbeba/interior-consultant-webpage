@@ -188,13 +188,14 @@ body {
   margin-top: 2.3125rem;
   height: 16.52rem;
   max-width: 100%;
+  position: relative;
 }
 
 .card {
   width: 18.75rem;
   position: absolute;
-  left: 52px;
-  bottom: 138px;
+  left: 2.3125rem;
+  bottom: -6.1875rem;
   height: 8.625rem;
   padding-left: 1.1875rem;
   padding-top: 0.823125rem;
